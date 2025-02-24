@@ -51,7 +51,7 @@ async function seedInvoices() {
       `
     )
   );
-
+  console.log("inserted invoices", insertedInvoices);
   return insertedInvoices;
 }
 
